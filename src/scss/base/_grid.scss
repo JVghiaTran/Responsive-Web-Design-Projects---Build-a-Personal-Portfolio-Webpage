@@ -36,7 +36,7 @@
   }
 }
 
-@include mediaquery--sm() {
+@include mediaquery--md() {
   @for $i from 1 through $col-num {
     .col--md-#{$i} {
       width: percentage($i / $col-num);

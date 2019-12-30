@@ -11,7 +11,7 @@
 }
 
 @mixin mediaquery--md() {
-  @media (min-width: $sreen-mobile) and (max-width: $sreen-pc - 1) {
+  @media (min-width: $sreen-mobile) and (max-width: $sreen-tablet - 1) {
     @content
   }
 }
