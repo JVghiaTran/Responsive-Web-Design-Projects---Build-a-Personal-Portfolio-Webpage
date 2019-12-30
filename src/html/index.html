@@ -1,5 +1,129 @@
 {% extends 'layout/_main.html' %}
 
 {% block content %}
-<main>abc</main>
+<main>
+  <nav id="navbar">
+    <ul class="list">
+      <li><a href="#welcome-secsion">About</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="welcome-secsion">
+    <div class="hero">
+      <div class="hero-body">
+        <h1 class="has-text-white">Hey I am JVghia Tran</h1>
+        <p class="has-text-danger">a web developer</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="tile">
+    <div class="tile-text">
+      <h2 class="has-text-white">These are some of my projects</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4 col--md-6 col--sm-12">
+          <div class="tile-project">
+            <a href="https://codepen.io/jvghiatran/pen/wvBoVzg" target="_blank">
+              <img class="is-300x300" src="/img/img_project-1.png" alt="1">
+              <p><span><</span>  Tribute Page  <span>/></span></p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-4 col--md-6 col--sm-12">
+          <div class="tile-project">
+            <a href="https://codepen.io/jvghiatran/pen/NWPpvzp" target="_blank">
+              <img class="is-300x300" src="/img/img_project-2.png" alt="1">
+              <p><span><</span>  Survey Form  <span>/></span></p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-4 col--md-6 col--sm-12">
+          <div class="tile-project">
+            <a href="https://codepen.io/jvghiatran/full/ZEYKvzB" target="_blank">
+              <img class="is-300x300" src="/img/img_project-3.png" alt="1">
+              <p><span><</span>  Technical Page  <span>/></span></p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-4 col--md-6 col--sm-12">
+          <div class="tile-project">
+            <a href="https://codepen.io/jvghiatran/full/abzWZod" target="_blank">
+              <img class="is-300x300" src="/img/img_project-4.png" alt="1">
+              <p><span><</span>  Landing Page  <span>/></span></p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-4 col--md-6 col--sm-12">
+          <div class="tile-project">
+            <a href="https://github.com/JVghiaTran/excercise4" target="_blank">
+              <img class="is-300x300" src="/img/img_project-5.png" alt="1">
+              <p><span><</span>  Excercise4  <span>/></span></p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-4 col--md-6 col--sm-12">
+          <div class="tile-project">
+            <a href="https://github.com/JVghiaTran/baitap3" target="_blank">
+              <img class="is-300x300" src="/img/img_project-6.png" alt="1">
+              <p><span><</span>  Excercise3  <span>/></span></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn">
+      <a id="profile-link" href="https://codepen.io/jvghiatran" target="_blank">Show all ></a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-content">
+    <div class="contact-secsion">
+      <h2>Let's work together...</h2>
+      <p>How do you take your coffee?</p>
+    </div>
+
+    <div class="contact-adr">
+      <a class="detail" href="https://www.facebook.com/profile.php?id=100009317592593">
+        <img src="/img/ico_facebook.png" alt="fb" height="40" width="40">
+        <p>Facebook</p>
+      </a>
+
+      <a class="detail" href="https://github.com/JVghiaTran">
+        <img src="/img/ico_githup.png" alt="github" width="40" height="40">
+        <p>Githup</p>
+      </a>
+
+      <a class="detail" href="#">
+        <img src="/img/ico_tw.png" alt="twiter" width="40" height="40">
+        <p>Twitter</p>
+      </a>
+
+      <a class="detail" href="#">
+        <img src="/img/ico_gmail.png" alt="gmail" width="40" height="40">
+        <p>Send a mail</p>
+      </a>
+
+      <a class="detail" href="#">
+        <img src="/img/ico_phone.png" alt="phone" height="40" width="40">
+        <p>Call me</p>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+    <p>© Created for freeCodeCamp</p>
+  </footer>
+</main>
 {% endblock %}
