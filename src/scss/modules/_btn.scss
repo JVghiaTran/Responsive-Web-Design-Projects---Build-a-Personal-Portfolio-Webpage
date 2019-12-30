@@ -1,0 +1,13 @@
+.btn {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  background-color: rgb(116, 114, 114);
+  padding: 10px 20px;
+
+  &:hover {
+    background-color: orangered;
+  }
+}

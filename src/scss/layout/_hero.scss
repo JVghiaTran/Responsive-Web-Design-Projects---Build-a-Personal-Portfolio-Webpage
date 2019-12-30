@@ -1,0 +1,17 @@
+.hero {
+  height: 100vh;
+  background-color: #000;
+  width: 100%;
+
+  .hero-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+
+    @include mediaquery--sm {
+      text-align: center;
+    }
+  }
+}

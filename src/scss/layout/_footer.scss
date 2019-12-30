@@ -1,0 +1,16 @@
+footer {
+  background-color: #303841;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  color: whitesmoke;
+
+  @include mediaquery--sm {
+    flex-direction: column;
+
+    p {
+      padding: 10px 0;
+      text-align: center;
+    }
+  }
+}

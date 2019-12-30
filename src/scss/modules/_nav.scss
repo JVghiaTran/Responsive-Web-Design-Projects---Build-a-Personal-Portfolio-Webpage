@@ -1,0 +1,15 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #be3144;
+  text-align: right;
+  padding: 30px 50px;
+  z-index: 3;
+
+  @include mediaquery--sm {
+    text-align: center;
+    padding: 20px 10px;
+  }
+}

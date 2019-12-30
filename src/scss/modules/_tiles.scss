@@ -1,0 +1,40 @@
+.tile {
+  background-color: rgb(100, 100, 223);
+  padding-bottom: 50px;
+
+  @include mediaquery--sm {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+  @include mediaquery--md {
+    .row {
+      flex-direction: row;
+    }
+  }
+
+  .tile-text {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    @include mediaquery--sm {
+      padding: 10px;
+    }
+
+    h2 {
+      border-bottom: 2px solid whitesmoke;
+      text-align: center;
+      padding-top: 80px;
+      margin-bottom: 60px;
+   }
+  }
+}
+
+.tile-project {
+  p {
+    text-align: center;
+    background-color: rgb(116, 114, 114);
+  }
+}
